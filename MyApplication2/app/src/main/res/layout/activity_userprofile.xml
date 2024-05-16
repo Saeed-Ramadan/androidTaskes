@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="start"
+    android:layoutDirection="rtl"
+    tools:context=".PatientProfileActivity"
+    android:background="@drawable/pro" >
+
+    <!-- Profile Image -->
+    <ImageView
+        android:id="@+id/imageViewProfile"
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:src="@drawable/profile"
+        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
+    <!-- Edit Profile Button -->
+    <Button
+        android:id="@+id/buttonEditProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="تعديل الملف الشخصي"
+        android:layout_below="@id/imageViewProfile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="@drawable/button_background"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textSize="20dp"
+        />
+
+    <!-- Patient Information -->
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" الاسم: سعيد رمضان"
+        android:textSize="18sp"
+        android:layout_below="@id/buttonEditProfile"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="32dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textViewAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="العمر: 21"
+        android:textSize="18sp"
+        android:layout_below="@id/textViewName"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/textViewGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="الجنس: ذكر"
+        android:textSize="18sp"
+        android:layout_below="@id/textViewAge"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"/>
+
+    <!-- Appointment Information -->
+    <TextView
+        android:id="@+id/textViewNextAppointment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="الموعد القادم: 12/5/2024"
+        android:textSize="18sp"
+        android:layout_below="@id/textViewGender"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="32dp"
+        android:textColor="@color/black"/>
+
+    <!-- Medical History Button -->
+    <Button
+        android:id="@+id/buttonMedicalHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="السجل الطبي"
+        android:layout_below="@id/textViewNextAppointment"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:textSize="30dp"/>
+
+</RelativeLayout>

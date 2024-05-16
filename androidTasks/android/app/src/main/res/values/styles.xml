@@ -1,0 +1,46 @@
+<!-- res/values/styles.xml -->
+
+<resources>
+    <style name="AppTheme" >
+
+    </style>
+
+    <!-- EditText Style -->
+    <style name="AppTheme.EditTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+
+    </style>
+
+    <!-- Button Style -->
+    <style name="AppTheme.ButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">Login</item>
+
+    </style>
+
+    <!-- CheckBox Style -->
+    <style name="AppTheme.CheckBoxStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">Remember Me</item>
+
+    </style>
+
+    <!-- TextView Style -->
+    <style name="AppTheme.TextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+
+    <!-- ImageView Style -->
+    <style name="AppTheme.ImageViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+
+</resources>

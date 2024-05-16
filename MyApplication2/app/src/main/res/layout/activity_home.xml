@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/login"
+        android:scaleType="fitCenter"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="مرحبا بك "
+        android:textSize="35sp"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold"
+        android:layout_marginBottom="100dp" />
+
+    <Button
+        android:id="@+id/buttonSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="تسجيل الدخول"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/white"
+        android:textColor="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/buttonSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="إنشاء حساب جديد"
+        android:textSize="18sp"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="enter_two_numbers">ENTER TWO NUMBERS</string>
+    <string name="enter_first_number">Enter First Number</string>
+    <string name="enter_second_number">Enter Second Number</string>
+    <string name="result">RESULT</string>
+    <string name="clear">CLEAR</string>
+    <string name="result_text">%1$s</string>
+    <string name="enter_valid_number">Enter valid number</string>
+</resources>

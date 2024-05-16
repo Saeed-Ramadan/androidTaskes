@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="814dp"
+        android:text="Enter Two Numbers"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/firstNumber"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="-147dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Enter first number" />
+
+    <EditText
+        android:id="@+id/secondNumber"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="107dp"
+        android:layout_marginEnd="22dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Enter second number"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/Addition"
+        android:layout_width="66dp"
+        android:layout_height="50dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="323dp"
+        android:layout_marginBottom="501dp"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/Subtract"
+        android:layout_width="66dp"
+        android:layout_height="50dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="244dp"
+        android:layout_marginBottom="501dp"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/Multiply"
+        android:layout_width="63dp"
+        android:layout_height="51dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginBottom="501dp"
+        android:text="*" />
+
+    <Button
+        android:id="@+id/Divide"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="501dp"
+        android:text="/" />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="169dp"
+        android:layout_height="50dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="455dp"
+        android:layout_marginEnd="112dp"
+        android:text="Clear" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="-156dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="267dp"
+        android:text="Result"
+        android:textSize="60dp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="182dp"
+        android:layout_marginEnd="154dp"
+        android:layout_marginBottom="130dp"
+        android:text="0.0"
+        android:textSize="40dp" />
+</RelativeLayout>

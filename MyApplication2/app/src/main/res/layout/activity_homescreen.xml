@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/background">
+
+
+    <ImageView
+        android:id="@+id/imageViewWelcome"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:src="@drawable/screen"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="50dp"/>
+
+    <Button
+        android:id="@+id/buttonProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="الملف الشخصي"
+        android:textSize="18sp"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonAppointments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="المواعيد"
+        android:textSize="18sp"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp" />
+    <Button
+        android:id="@+id/buttonDoctors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="الدكاترة"
+        android:textSize="18sp"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonPatients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="المرضى"
+        android:textSize="18sp"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="تسجيل الخروج"
+        android:textSize="18sp"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

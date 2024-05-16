@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/TitleTextView"
+        android:text="@string/enter_two_numbers"
+        app:layout_constraintBottom_toTopOf="@+id/edt_first_number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edt_first_number"
+        style="@style/NumberEdittext"
+        android:hint="@string/enter_first_number"
+        app:layout_constraintBottom_toTopOf="@+id/edt_second_number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title" />
+
+    <EditText
+        android:id="@+id/edt_second_number"
+        style="@style/NumberEdittext"
+        android:hint="@string/enter_second_number"
+        app:layout_constraintBottom_toTopOf="@+id/ll_btns"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_first_number" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_btns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/tv_res"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_second_number">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_plus"
+            style="@style/OperationButtons"
+            android:text="+"
+            tools:ignore="MissingClass" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_minus"
+            style="@style/OperationButtons"
+            android:text="-" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_multiply"
+            style="@style/OperationButtons"
+            android:text="*"
+            tools:ignore="MissingClass" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_divide"
+            style="@style/OperationButtons"
+            android:text="/"
+            tools:ignore="MissingClass" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_clear"
+            style="@style/ClearButton"
+            android:text="@string/clear" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_res"
+        style="@style/TitleTextView"
+        android:text="@string/result"
+        app:layout_constraintBottom_toTopOf="@+id/tv_result"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ll_btns" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        style="@style/TextView_line"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_res"
+        tools:text="0.00" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="rtl"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="مواعيدك"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/gray"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textViewAppointmentTitle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="كفرالشيخ"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/textViewAppointmentTime1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="الوقت: 12:00 مساء"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/gray"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textViewAppointmentTitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ميت العامل"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/textViewAppointmentTime2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="الوقت: 08:00 صباحا"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/gray"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textViewAppointmentTitle3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="الحوامدية"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/textViewAppointmentTime3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="الوقت: 12:00 مساء"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/gray"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textViewAppointmentTitle4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="قلين"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/textViewAppointmentTime4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="الوقت: 12:00 مساء"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/gray"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textViewAppointmentTitle5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="القاهرة"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/textViewAppointmentTime5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="الوقت: 12:00 صباحا"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/gray"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textViewAppointmentTitle6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="الاسكندرية"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/textViewAppointmentTime6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="الوقت: 05:00 صباحا"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/gray"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textViewAppointmentTitle7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="سوهاج العاصمة"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/textViewAppointmentTime7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="الوقت: 06:00 مساء"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="@color/back">
+
+
+<ImageView
+    android:layout_width="250dp"
+    android:layout_height="120dp"
+    android:src="@drawable/ahmed"
+    android:layout_marginTop="15dp"
+    android:layout_gravity="center"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="احمد خالد توفيق"
+    android:textColor="@color/white"
+    android:layout_gravity="center"
+    android:textSize="30sp"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="75dp"
+        android:layout_marginTop="100dp"
+        android:rating="3.5" />
+
+<!--    <ImageView-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="55dp"-->
+<!--    android:src="@drawable/im1"-->
+<!--    android:layout_marginTop="100dp"-->
+<!--    />-->
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+
+        android:src="@drawable/im1" />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+
+        android:src="@drawable/im2" />
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+
+        android:src="@drawable/m3" />
+
+</LinearLayout>
+
+<Button
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp"
+    android:text="اطلب الان"
+    android:background="@color/teal_200"
+    />
+
+</LinearLayout>
